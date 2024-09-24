@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            position: relative;
+            overflow: hidden; /* Ẩn thanh cuộn */
+        }
+        .heart {
+            position: absolute;
+            font-size: 20px; /* Kích thước của biểu tượng trái tim */
+            color: red; /* Màu sắc của biểu tượng trái tim */
+            animation: fall 3s linear forwards;
+            z-index: 9999; /* Đảm bảo trái tim nằm trên các phần tử khác */
+        }
+        @keyframes fall {
+            0% {
+                top: -10%;
+                opacity: 1;
+            }
+            100% {
+                top: 100%;
+                opacity: 0;
+            }
+        }
+    </style>
+    <title>Mời sinh nhật thầy Trúc</title>
+</head>
+<body>
+    <div class="Container">
+        <div class="Invite">
+            <div class="Invite_Containar">
+                <div class="Thiepmoi">
+                    <button type="button" class="btn btn-primary" id="birthdayButton" data-toggle="modal" data-target="#myModal">
+                        Tham Gia Sinh Nhật Em Nguyễn Minh Quốc - 24/09
+                    </button>                    
+                    <div class="modal" id="myModal">
+                      <div class="ThiepMoi_Container">
+                          <div class="Thiepmoi_box" style="background-image:url(../img/Hồng\ Sinh\ nhật\ Bánh\ kem\ Công\ chúa\ Thiệp\ mời.gif) ;">
+                              <div class="Text_">
+                                <div class="Text_container">
+                                    <div class="Top_Text">
+                                        <span class="Birthday_Text">
+                                            THIỆP MỜI SINH NHẬT THẦY TRÚC
+                                        </span>
+                                    </div>
+                                    <div class="Mid_Text">
+                                        <span class="Invite_Text">
+                                            Kính mời chị: Thầy Trúc đẹp trai nhất FPT <br>
+                                            tới dự sinh nhật online của trò Minh Quốc vào lúc 16h30 ngày 24/09/2024<br>
+                                            tại Tòa nhà FPT Polytechnic, phố Trịnh Văn Bô, phường Phương Canh, quận Nam Từ Liêm, TP Hà Nội 
+                                            <br> Sự có mặt của thầy là niềm vinh hạnh của em
+                                        </span>
+                                    </div>
+                                    <div class="Footer_Text">
+                                        <!-- Có thể thêm nội dung footer nếu cần -->
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('birthdayButton').addEventListener('click', function() {
+            for (let i = 0; i < 10; i++) { // Tạo 10 trái tim
+                createHeart();
+            }
+        });
+
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.innerHTML = '<i class="fas fa-heart"></i>'; // Sử dụng biểu tượng trái tim từ Font Awesome
+            heart.style.left = Math.random() * 100 + 'vw'; // Vị trí trái tim ngẫu nhiên theo chiều ngang
+            heart.style.animationDuration = Math.random() * 2 + 3 + 's'; // Thay đổi thời gian rơi ngẫu nhiên
+            document.body.appendChild(heart);
+
+            // Xóa trái tim sau khi hoàn thành animation
+            heart.addEventListener('animationend', () => {
+                heart.remove();
+            });
+        }
+
+        // Tạo liên tục trái tim rơi
+        setInterval(createHeart, 500); // Tạo một trái tim mỗi 500ms
+    </script>
+</body>
+</html>

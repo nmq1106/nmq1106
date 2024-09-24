@@ -1,0 +1,55 @@
+body{
+    height: 800px;
+    width: auto;
+
+}
+.Container{
+    height: 800px;
+    width: auto;
+    background-color: aqua;
+}
+.Invite{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.Invite_Containar{
+    margin-top: 10px;
+    height: 700px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.Thiepmoi{
+    height: 200px;
+    width: 400px;
+    margin-left: 48px;
+}
+img{
+    height: 500px;
+    width: auto;
+}
+.Thiepmoi_box{
+  display: inline-block;
+  width: 700px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -320px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Text_container{
+    height: 300px;
+    width: 290px;
+    border: 1px solid black;
+    position: absolute;
+    top: 260px ;
+    left:390px ;
+}
+.Birthday_Text{
+    font-family: cursive;
+}
