@@ -28,20 +28,36 @@
 
 ---
 
-### 🎶 Tune of the Day
+<!-- 🎶 Vibing Now -->
 
 <p align="center">
-  <iframe
-    style="border-radius:12px"
-    src="https://open.spotify.com/embed/track/1A6OTy97kk0mMdm78rHsm8?utm_source=generator"
-    width="80%"
-    height="80"
-    frameBorder="0"
-    allowfullscreen=""
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    loading="lazy">
-  </iframe>
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img 
+          src="https://scontent.fhan14-5.fna.fbcdn.net/v/t39.30808-1/494663519_1000715278866373_5977073509027867264_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeHg-ZxVwkQ4FuF0RjeTZAQmnESwPdbZFYScRLA91tkVhDKZCrk1tcmoAnFcDtDFNCzjObCM8xf0ntxHgwNueN_8&_nc_ohc=JFT65Es_1_MQ7kNvwGv4CF4&_nc_oc=AdkORBiT6l3Sy_TWse2TeA6GSM5fmEQ-OQuQNdOUcIjfr2orcvRsu2QnRdXmgatnw1w&_nc_zt=24&_nc_ht=scontent.fhan14-5.fna&_nc_gid=xSbWOF7LoNJGWBkgu20BZA&oh=00_AfKarRtQ3o62VadEIRrZeasvW2m5OIwGBHnWhkWq8NmlzQ&oe=683A083C" 
+          width="150px" 
+          style="border-radius:50%; border: 3px solid #FFD166; box-shadow: 0 0 20px rgba(255,209,102,0.5);" 
+        />
+        <br/>
+        <sub><b>Nguyễn Minh Quốc</b></sub>
+      </td>
+      <td width="50%">
+        <iframe
+          style="border-radius:12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
+          width="100%" 
+          height="152" 
+          src="https://www.youtube.com/embed/XWexgEEBxBQ" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </td>
+    </tr>
+  </table>
 </p>
+
 
 ---
 
