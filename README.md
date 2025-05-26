@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Digital Marketing Student | 💻 Passionate Developer | 🌟 Creativity Enthusiast</h3>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" />
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub!;I'm+a+Lifelong+Learner;Love+Code%2C+Music%2C+and+Marketing!;Let's+Create+Together!💡" alt="Typing SVG" />
 </p>
 
@@ -22,9 +22,36 @@
 ### 🔥 About Me
 
 - 🎓 I'm studying **Digital Marketing**
-- 💻 I enjoy coding web & mobile apps using **React, Node.js, Telegram Bot, and more**
-- 🎵 I love music, especially from **Sơn Tùng M-TP** and **Double 2T**
-- ⚡ Fun fact: I can code with music on full blast 🎧
+- 💻 I love building web & mobile apps using **React, Node.js, Telegram Bot, and more**
+- 🎵 Music is life: Fan of **Sơn Tùng M-TP** & **Double 2T**
+- ⚡ Fun fact: I code better with music blasting 🎧
+
+---
+
+### 🎶 Tune of the Day
+
+<p align="center">
+  <iframe
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/1A6OTy97kk0mMdm78rHsm8?utm_source=generator"
+    width="80%"
+    height="80"
+    frameBorder="0"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
+</p>
+
+---
+
+### 🚀 Join Me in My Journey!
+
+<p align="center">
+  <a href="mailto:nmq1106@gmail.com">
+    <img src="https://img.shields.io/badge/Let's+Collaborate!-FF69B4?style=for-the-badge&logo=Handshake&logoColor=white" />
+  </a>
+</p>
 
 ---
 
@@ -51,14 +78,21 @@
 
 ### ✨ My Projects & Interests
 
-- 🚀 Building Telegram bots for fun & automation
-- 🧠 Exploring AI, chat systems, and crypto tools
-- 📱 Creating smart mobile apps for real-world use
-- 📂 Love working on UI/UX with Ant Design, Tailwind, and Styled Components
+- 🤖 Telegram bots for automation and fun
+- 💡 Exploring AI, crypto, and smart tools
+- 📱 Building useful mobile apps
+- 🎨 UI/UX with Ant Design, TailwindCSS, and Styled Components
+
+---
+
+### 😂 Random Dev Meme
+
+<p align="center">
+  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%" />
+</p>
 
 ---
 
 ### 📅 Let's Connect and Build Together!
 
-> "The future belongs to those who believe in the beauty of their dreams." – Eleanor Roosevelt
-
+> *"The future belongs to those who believe in the beauty of their dreams."* – **Eleanor Roosevelt**
