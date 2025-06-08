@@ -35,20 +35,7 @@ Here's an upgraded version of your GitHub profile with more features, interactiv
 ## 🧑‍💻 About Me
 
 
-const nmq = {
-  pronouns: "he" | "him",
-  education: "Digital Marketing",
-  skills: {
-    frontend: ["React", "Next.js", "TailwindCSS", "Ant Design"],
-    backend: ["Node.js", "Express", "MongoDB", "Firebase"],
-    mobile: ["React Native"],
-    tools: ["Git", "Figma", "Postman", "VS Code"],
-    marketing: ["SEO", "Content Strategy", "Social Media", "Analytics"]
-  },
-  hobbies: ["Music Production", "Crypto Trading", "UI/UX Design", "Gaming"],
-  currentFocus: "Building AI-powered marketing automation tools",
-  funFact: "Can code while listening to Sơn Tùng M-TP at 2x speed"
-}
+
 
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
